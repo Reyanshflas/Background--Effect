@@ -1,0 +1,58 @@
+body{
+
+    background-image: url("https://t4.ftcdn.net/jpg/05/72/67/81/360_F_572678180_O1CoyfdBDRnOcd4gXhJJFK4OaUeGtHhc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+
+    color: red;
+}
+
+
+#car{
+
+    font-size: 30px;
+    color: blue;
+}
+
+#btn{
+
+    background-color: aqua;
+}
+
+
+@keyframes my-animation{
+
+20%
+{
+    background-color: gold;
+    font-size: 8px;
+}
+
+50%
+{
+
+    background-color: rgb(157, 255, 0);
+    font-size: 16px;
+}
+
+80%
+{
+
+    background-color: rgb(255, 0, 72);
+    font-size: 32px;
+
+}
+
+}
+
+#changing-color{
+
+    height: 250px;
+    width: 250px;
+    animation-name: my-animation;
+    animation-duration: 10s;
+
+}
